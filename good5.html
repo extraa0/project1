@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenBasket</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function saveData() {
+            var inputData = document.getElementById("input").value;
+            if (inputData < 0) {
+                alert("Введено некорректное значение");
+            }
+            if (inputData > 3255) {
+                alert("Недостаточно товара на складе");
+            }
+            if ((inputData >= 0) & (inputData <= 3255)) {
+                let count = inputData * 80;
+                alert(`Стоимость ${inputData} кг товара равна ${count} руб.`);
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <div class="headerback"></div>
+    <div class="main4">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img class="logotype" src="image/greenbasket.png" alt="">
+                </div>
+                <p class="name">GreenBasket</p>
+                <ul class="menu">
+                    <li class="menuli"><a href="index.html">Главная</a></li>
+                    <li class="menuli"><a href="goods.html">Каталог</a></li>
+                    <li class="menuli"><a href="coop.html">Сотрудничество</a></li>
+                </ul>
+            </div>
+            <hr class="headerhr">
+        </header>
+        <a href="javascript:history.back ()" class="back">← Назад</a>
+        <ul class="goodblock">
+            <li class="goodblockimg">
+                <img class="goodblockimg" src="image/carrot.jpg" alt="">
+            </li>
+            <li>
+                <div class="goodblocktext">
+                    <h1 class="goodinfo">Морковь</h1>
+                    <ul>
+                        <li class="goodinfo">Цена за кг: 80 руб.</li>
+                        <li class="goodinfo">Производитель: "ООО СелТорг"</li>
+                        <li class="goodinfo">Телефон: +7(924)445-12-93</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <p class="count">Сейчас в наличии 3255 кг</p>
+        <ul class="countlist">
+            <li>Калькулятор стоимости:</li>
+            <li><input class="inputcount" type="number" id="input" placeholder="Введите массу товара в кг"></li>
+            <li><button class="buttoncount" onclick="saveData()">Посчитать</button></li>
+        </ul>
+        <hr class="footerhr">
+        <footer>
+            <center><img class="rgau" src="image/rgau.png" alt=""></center>
+            <center><p class="rgau">При поддержке Российского государственного аграрного университета — МСХА им. К. А. Тимирязева</p></center>
+        </footer>
+    </div>
+</body>
+</html>

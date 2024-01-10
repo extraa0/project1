@@ -1,0 +1,333 @@
+body{
+    width: 1920px;
+    margin: 0;
+    background-color: rgb(255, 213, 162);
+}
+.main{
+    width: 1280px;
+    height: 1450px;
+    margin: auto;
+    background-color: bisque;
+    position: relative;
+    
+}
+p{
+    margin: 0;
+}
+.headerback{
+    background-color: bisque;
+    height: 215px;
+    width: 1920px;
+    position: absolute;
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logotype{
+    width: 200px;
+    height: 200px;
+    
+}
+.header{
+    display: inline-flex;
+}
+.name{
+    font-size: 60px;
+    color: rgb(30, 110, 30);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.menu{
+    display: inline-flex;
+    text-decoration-line: none;
+    list-style-type: none;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.menuli{
+    padding-right: 40px;
+}
+a{
+    text-decoration-line: none;
+    color: rgb(30, 110, 30);
+}
+a:hover{
+    color: rgb(44, 156, 44);
+}
+hr{
+    border-color: rgb(30, 110, 30);
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.headerhr{
+    width: 1920px;
+    margin-left: -320px;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 10px;
+}
+.footerhr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about{
+    font-size: 50px;
+    color: rgb(30, 110, 30);
+}
+.aboutblock{
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.milkimg{
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 15px;
+}
+.aboutp{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    margin-left: 50px;
+    width: 600px;
+}
+
+.contacts{
+    font-size: 50px;
+    color: rgb(30, 110, 30);
+}
+.contactsp{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    margin-top: 30px;
+}
+.contactsblock{
+    display: inline-flex;
+    color: rgb(30, 110, 30);
+    margin-top: 50px;
+}
+.phone{
+    margin: 0;
+    margin-left: 200px;
+    height: 110px;
+    width: 230px;
+}
+.email{
+    margin-top: 0;
+    margin-left: 350px;
+    height: 110px;
+    width: 400px;
+}
+img.rgau{
+    height: 100px;
+}
+p.rgau{
+    font-size: 20px;
+    color: rgb(30, 110, 30);
+    width: 600px;
+}
+
+
+
+.main2{
+    width: 1280px;
+    height: 1570px;
+    margin: auto;
+    background-color: bisque;
+    position: relative;
+    
+}
+.coop{
+    font-size: 50px;
+    color: rgb(30, 110, 30);
+    margin-bottom: 50px;
+}
+.coopp{
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    width: 1000px;
+}
+.inputblock{
+    display: inline-flex;
+}
+div.inputp{
+    margin-left: 100px;
+    margin-top: 140px;
+}
+p.inputp{
+    margin-bottom: 205px;
+    font-size: 25px;
+    color: rgb(30, 110, 30);
+}
+.inputpcontacts{
+    margin-top: -45px;
+    font-size: 25px;
+    color: rgb(30, 110, 30);
+}
+div.input{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+input.input{
+    height: 200px;
+    width: 700px;
+    margin-bottom: 30px;
+    background-color: rgb(231, 211, 186);
+    border-color: rgb(30, 110, 30);
+    border-style: solid;
+    color: rgb(30, 110, 30);
+    font-size: 20px;
+}
+.inputcontacts{
+    height: 100px;
+    width: 700px;
+    margin-bottom: 30px;
+    background-color: rgb(231, 211, 186);
+    border-color: rgb(30, 110, 30);
+    border-style: solid;
+    color: rgb(30, 110, 30);
+    font-size: 20px;
+}
+.inputbutton{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(231, 211, 186);
+    border-color: rgb(30, 110, 30);
+    border-style: solid;
+    color: rgb(30, 110, 30);
+    font-size: 20px;
+}
+.inputbutton:hover{
+    background-color: rgb(228, 198, 161);
+}
+
+
+.goods{
+    font-size: 50px;
+    color: rgb(30, 110, 30);
+    margin-bottom: 50px;
+}
+.goodsinfo{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+}
+.goodslist{
+    display: inline-flex;
+    text-decoration-line: none;
+    list-style-type: none;
+    padding-top: 50px;
+    padding-left: 0;
+}
+.goodli{
+    padding-left: 50px;
+}
+.anygood{
+    width: 360px;
+}
+.goodimg{
+    width: 360px;
+    border-radius: 15px;
+}
+.goodp{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.goodproducer{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.main3{
+    width: 1280px;
+    height: 1490px;
+    margin: auto;
+    background-color: #ffe4c4;
+    position: relative;
+}
+
+
+.main4{
+    width: 1280px;
+    height: 1080px;
+    margin: auto;
+    background-color: bisque;
+    position: relative;
+}
+.back{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    margin-left: 50px;
+}
+.goodblock{
+    margin-top: 50px;
+    display: inline-flex;
+    list-style: none;
+}
+li.goodblockimg{
+
+    margin-left: 120px;
+    width: 400px;
+}
+img.goodblockimg{
+    width: 400px;
+    border-radius: 15px;
+}
+.goodblocktext{
+    padding-left: 40px;
+    height: 266px;
+    width: 700px;
+}
+h1.goodinfo{
+    margin: 0;
+    font-size: 40px;
+    color: rgb(30, 110, 30);
+}
+li.goodinfo{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    padding-top: 30px;
+}
+.count{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    padding-top: 10px;
+    margin-left: 180px;
+}
+.countlist{
+    font-size: 30px;
+    color: rgb(30, 110, 30);
+    margin-top: 30px;
+    margin-left: 180px;
+    list-style-type: none;
+    padding-left: 0;
+    display: inline-flex;
+}
+.inputcount{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(231, 211, 186);
+    border-color: rgb(30, 110, 30);
+    border-style: solid;
+    color: rgb(30, 110, 30);
+    font-size: 19px;
+    margin-left: 130px;
+    margin-top: -7px;
+}
+.buttoncount{
+    height: 56px;
+    width: 200px;
+    background-color: rgb(231, 211, 186);
+    border-color: rgb(30, 110, 30);
+    border-style: solid;
+    color: rgb(30, 110, 30);
+    font-size: 20px;
+    margin-left: 70px;
+    margin-top: -7px;
+}
+.buttoncount:hover{
+    background-color: rgb(228, 198, 161);
+}

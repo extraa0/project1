@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сотрудничество</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headerback"></div>
+    <div class="main2">
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img class="logotype" src="image/greenbasket.png" alt="">
+                </div>
+                <p class="name">GreenBasket</p>
+                <ul class="menu">
+                    <li class="menuli"><a href="index.html">Главная</a></li>
+                    <li class="menuli"><a href="goods.html">Каталог</a></li>
+                    <li class="menuli"><a href="coop.html">Сотрудничество</a></li>
+                </ul>
+            </div>
+            <hr class="headerhr">
+        </header>
+        <center><b><h1 class="coop">Сотрудничество</h1></b></center>
+        <center><p class="coopp">Если вы желаете выставить свой товар на нашем сайте, то ниже приведена форма для заполнения.</p></center>
+        <center><p class="coopp">После заполнения формы с вами свяжутся для уточнения деталей.</p></center>
+        <div class="inputblock">
+            <div class="inputp">
+                <p class="inputp">Расскажите о своей компании:</p>
+                <p class="inputp">Расскажите о своём продукте:</p>
+                <p class="inputpcontacts">Как с вами можно связаться?</p>
+            </div>
+            <div class="input">
+                <input class="input" type="text" id="input1" placeholder="Введите информацию">
+                <br>
+                <input class="input" type="text" id="input2" placeholder="Введите информацию">
+                <br>
+                <input class="inputcontacts" type="text" id="input3" placeholder="Введите номер телефона или почту">
+                <br>
+                <center><button class="inputbutton" onclick="clearInputs()">Отправить</button></center>
+            
+                <script>
+                    function clearInputs() {
+                        document.getElementById("input1").value = "";
+                        document.getElementById("input2").value = "";
+                        document.getElementById("input3").value = "";
+                    }
+                </script>
+            </div>
+        </div>
+        
+        <hr class="footerhr">
+        <footer>
+            <center><img class="rgau" src="image/rgau.png" alt=""></center>
+            <center><p class="rgau">При поддержке Российского государственного аграрного университета — МСХА им. К. А. Тимирязева</p></center>
+        </footer>
+    </div>
+</body>
+</html>
